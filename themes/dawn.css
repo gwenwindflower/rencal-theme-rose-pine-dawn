@@ -1,0 +1,53 @@
+/* Rosé Pine Dawn palette, from https://rosepinetheme.com/palette/ (MIT, mvllow and Rosé Pine contributors) */
+--rp-dawn-base: #faf4ed;
+--rp-dawn-surface: #fffaf3;
+--rp-dawn-overlay: #f2e9e1;
+--rp-dawn-text: #575279;
+--rp-dawn-pine: #286983;
+--rp-dawn-iris: #907aa9;
+--rp-dawn-highlight-med: #dfdad9;
+--rp-dawn-highlight-high: #cecacd;
+
+/* Subtle, Love, Gold and Rose keep their OKLCH hue, darkened to reach 4.5:1 for normal text; Gold also loses chroma to stay in sRGB */
+--rp-dawn-subtle-text: #696583;
+--rp-dawn-subtle-text-selected: #615d7a;
+--rp-dawn-love-text: #9d4f66;
+--rp-dawn-gold-text: #935c03;
+--rp-dawn-rose-text: #a1514f;
+--rp-dawn-iris-text: #6d5784;
+
+--background: var(--rp-dawn-base);
+--foreground: var(--rp-dawn-text);
+--muted-foreground: var(--rp-dawn-subtle-text);
+
+--surface-tint: var(--rp-dawn-text);
+--surface-tint-step: 4%;
+--accent: color-mix(
+	in srgb,
+	var(--surface-tint) calc(var(--surface-tint-step) * 2),
+	transparent
+);
+--selected: var(--rp-dawn-highlight-med);
+--selected-muted-foreground: var(--rp-dawn-subtle-text-selected);
+--border: var(--rp-dawn-highlight-high);
+--input: var(--rp-dawn-highlight-high);
+
+--card: var(--rp-dawn-surface);
+--popover: var(--rp-dawn-surface);
+--tooltip: var(--rp-dawn-overlay);
+--toast: var(--rp-dawn-overlay);
+--toast-foreground: var(--rp-dawn-text);
+--toast-muted-foreground: var(--rp-dawn-subtle-text);
+
+--primary: var(--rp-dawn-pine);
+--primary-foreground: var(--rp-dawn-base);
+--ring: var(--rp-dawn-iris);
+--today: var(--rp-dawn-pine);
+--today-foreground: var(--rp-dawn-base);
+--brand: var(--rp-dawn-rose-text);
+--brand-foreground: var(--rp-dawn-base);
+
+--success: var(--rp-dawn-pine);
+--warning: var(--rp-dawn-gold-text);
+--destructive: var(--rp-dawn-love-text);
+--destructive-foreground: white;
