@@ -1,10 +1,10 @@
-id = "gwenwindflower.rose-pine"
-name = "Rosé Pine"
+id = "gwenwindflower.rose-pine-dawn"
+name = "Rosé Pine Dawn"
 description = "Rosé Pine Dawn, a light theme for renCal"
 min_rencal_version = "0.9.3"
 
 [[contributes.themes]]
-id = "dawn"
+id = "rose-pine-dawn"
 name = "Rosé Pine Dawn"
 css = "themes/dawn.css"
 appearance = "light"
