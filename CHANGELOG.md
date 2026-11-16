@@ -1,4 +1,12 @@
 
+### 📚 Documentation
+
+#### Readme
+
+* correct plugin name and paths by @gwenwindflower
+
+
+
 ### 🧰 Tooling & Tasks
 
 #### Rencal
