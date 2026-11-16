@@ -13,7 +13,7 @@ Installing via the GUI adds the plugin to `plugins.toml`:
 
 ```toml
 plugins = [
-  "gwenwindflower/rose-pine",
+  "gwenwindflower/rencal-theme-rose-pine-dawn"
 ]
 ```
 
@@ -22,7 +22,7 @@ For local development with live reloading, clone the repo and add the path to yo
 ```toml
 plugins = [
   ...
-  "/path/to/rose-pine",
+  "/path/to/rose-pine-dawn",
 ]
 ```
 
